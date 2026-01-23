@@ -16,7 +16,7 @@ namespace Routing.Controllers
         {
             return Content($"Student Id:{id}. Subject : {subject}. ");
         }
-
+        //Action Result. To Put name put ?name = "" in the URL Bar
         [Route("Input/{id}")]
         public IActionResult Input(int id , string name)
         {
@@ -25,3 +25,4 @@ namespace Routing.Controllers
         }
     }
 }
+
