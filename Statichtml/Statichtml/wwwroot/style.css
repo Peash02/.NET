@@ -1,0 +1,46 @@
+﻿body 
+{
+    background-color : aquamarine;
+    font-family: Arial, sans-serif;
+    text-align : center;
+}
+h1
+{
+    color:darkblue;
+}
+p
+{
+    font-size:18px;
+    color:hotpink;
+}
+.btn
+{
+    background-color:rgb(255, 230, 0);
+    padding: 4px 10px 4px 10px;
+    font-family: Comic Sans MS;
+    color : black;
+    border : solid;
+    border-width:2px;
+    border-radius : 2px;
+    border-color : black;
+    box-shadow : rgba(0,0,0,0.2) 2px 2px;
+    transition: background-color 0.15s;
+    
+}
+.btn:active
+{
+    background-color:rgba(255,150,0);
+    transform: scale(0.9);
+
+}
+.linkbtn {
+    text-decoration:none;
+    background-color: lightslategray;
+    padding: 5px 10px 6px 10px;
+    font-family: Verdana;
+    border: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.2) 2px 2px;
+    margin-left:20px;
+}
